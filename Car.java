@@ -5,8 +5,13 @@ public class Car{
     //Driver::Driver[] list_of_drivers;
     private String car_make;
     private String car_model;
+    private int year;
     
     
+    public Car(String make)
+    {
+    	car_make = make;
+    }
 	public String get_car_make()
 	{
 		return car_make;
@@ -26,5 +31,6 @@ public class Car{
 	{
 		car_model = make;
 	}
+	
 };
 

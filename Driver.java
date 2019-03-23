@@ -5,6 +5,10 @@ public class Driver
 		    private String name;
 		    private String date_of_birth;
 		    
+		    public Driver(String n)
+		    {
+		    	name = n;
+		    }
 		    public String get_name()
 		    {
 		    	return name;
