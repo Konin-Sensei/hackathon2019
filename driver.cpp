@@ -1,9 +1,8 @@
 #include "driver.h"
 
-driver::driver(){
-
+std::string Driver::get_name(){
+    return name;
 }
-
-driver:~driver(){
-    
+std::string Driver::get_date_of_birth(){
+    return date_of_birth;
 }
